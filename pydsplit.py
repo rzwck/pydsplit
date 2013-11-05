@@ -22,6 +22,7 @@ while cursor < size:
 	newname = nameonly + "_" + str(len(data)) + extonly
 	cursor = fh.tell()
 	
+	print newname+". Size: "+str(newsize)
 	newfh = open(newname, "wb")
 	newfh.write(data)
 	newfh.close()
