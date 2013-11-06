@@ -1,6 +1,6 @@
 import sys,os
 
-# incsplit.py [startoffset] [blocksize] [filename]
+# pydsplit.py [startoffset] [blocksize] [filename]
 
 startoffset = int(sys.argv[1])
 blocksize = int(sys.argv[2])
